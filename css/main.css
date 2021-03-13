@@ -89,32 +89,105 @@ textarea {
 /* -------------- Base Header - Footer Styles ------------- */
 
 header,
-header content-wrapper,
+header .content-wrapper,
 header nav,
 header nav ul,
-footer social-icons,
-footer p,
-hero-area,
-aside,
-features,
-features features-items,
-reviews,
-mission,
-contact-section,
-faq,
-faqcontent-wrapper,
-
- {
+footer .social-icons,
+footer .content-wrapper,
+.hero-area,
+.aside,
+.features,
+.featuresfeatures-items,
+.reviews,
+.mission,
+.contact-section,
+.faq,
+.faqcontent-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+ 
+}
+/* Header Styles */
+header{
+  padding: 15px 0;
+  
 }
 
+.header-divider{
+  margin: 50px 0;
+}
 
+header nav{
+  width: 60%;
+  display: flex;
+  justify-content: space;
+  
+}
 
+header nav ul{
+  margin: 50px 0;
+}
 
+header .content-wrapper{
+  margin: 0;
+}
 
+.hero-area{
+  display: flex;
+  justify-content: center;
+}
+
+ aside{
+   display: flex;
+   justify-content: center;
+   
+ }
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.mission .content-wrapper,
+.mission-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  
+ 
+}
+footer h4{
+  display: flex;
+  justify-content: center;
+}
+footer p{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+footer .content-wrapper{
+  width: 55%;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.features article{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.features p{
+  margin: 0;
+}
+
+.reviews h3{
+  width: 50%;
+}
 
 
 
