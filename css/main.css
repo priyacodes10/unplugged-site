@@ -145,21 +145,21 @@ figure{
 
 }
 
-address{
-
+address p{
+display: flex;
+justify-content: flex-start;
 }
 
 
 header,
 footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
 header {
   padding: 15px 0;
+  background-color: #000000;
 }
 
 header .content-wrapper {
@@ -190,39 +190,123 @@ header nav ul {
   width: 100%;
 }
 
-footer {
-  flex-direction: column;
-}
-
-footer p {
-  margin: 0;
-}
-
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
-}
-
-footer .contact {
-  margin-bottom: 50px;
-}
-
-footer .social-icons {
+.hero-area{
+  color:#e2e3ed;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-flow: wrap;
+}
+ .hero-area img{
+   width: 1600px;
+   height: 600px;
+ }
+
+
+.footer-content {
+  width: 70%;
+  margin: 50px 0;
+  
 }
 
-footer .social-icons p {
+.contact h4, p{
+  
+  padding: 0 500px 0 0;
+}
+
+
+ .social{      
+  padding: 0 0 0 200px;
+
+}
+ 
+.footer .social-icons p {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copyright {
+  padding: 0 0 0 600px;
+
+}
+
+.form{
+  background-color: #527158;
+  font-size: 14px;
+  color: #e2e3ed;
+  font-family: 'Poppins', sans-serif;
+  
+
+}
+
+.form h4{
+  font-size: 16px;
+}
+
+aside{
+  background-color: #527158;
+  align-items: center;
+  
+}
+aside h3{
+  font-size: 16px;
+  color: #e2e3ed;
+}
+
+.features h4{
+  color: #e2e3ed;
+  display: flex;
+  flex-flow: wrap;
+  
+}
+
+aside .form {  
+  margin-top: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-footer .copyright {
-  margin: 20px 0;
+.reviews{
+  background-color: #1a2c2a;
+  color: #e2e3ed;
+  justify-content: center;
 }
 
+.reviews img{
+  width: 350px;
+  height: 250px;
+  justify-content: center; 
+}
+
+.features{
+  display: flex;
+  flex-direction: row;
+}
+
+.features img{
+  width: 1500px;
+  height: 600px;
+}
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 /* Hero Area */
