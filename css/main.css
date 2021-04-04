@@ -137,9 +137,12 @@ p{
 
 
 img{
-
+  width: 100%;
 }
 
+figure{
+  margin: 0;
+}
 
 address p{
 display: flex;
@@ -188,12 +191,22 @@ header nav ul {
 
 .hero-area h1{ 
   color:#e2e3ed;
-  display: flex;
-  align-items: flex-start;
+  display:flex;
+  flex-basis: 450px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0 600px 0 0;
 
 }
 
-  
+header figure{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}  
+
  .hero-area img{
    width: 1600px;
    height: 600px;
@@ -262,6 +275,7 @@ aside h3{
   
 }
 .content-wrapper{
+  width: 1200px;
   background: url('img/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -302,14 +316,18 @@ input[type=button] {
 .reviews{
   background-color: #1a2c2a;
   color: #e2e3ed;
-  justify-content: center;
+  
 }
 
 .reviews img{
   width: 350px;
   height: 250px;
-  justify-content: center; 
-}
+  background: url('img/group-photo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 800px;
+} 
+
 
 .features{
   display: flex;
@@ -330,6 +348,13 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+header figure{
+  width: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 /* Aside */
 
 aside {
