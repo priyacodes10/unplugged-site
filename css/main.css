@@ -141,10 +141,6 @@ img{
 }
 
 
-figure{
-
-}
-
 address p{
 display: flex;
 justify-content: flex-start;
@@ -190,15 +186,23 @@ header nav ul {
   width: 100%;
 }
 
-.hero-area{
+.hero-area h1{ 
   color:#e2e3ed;
   display: flex;
-  flex-flow: wrap;
+  align-items: flex-start;
+
 }
+
+  
  .hero-area img{
    width: 1600px;
    height: 600px;
- }
+   background: url('img/header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+ 
 
 
 .footer-content {
@@ -256,6 +260,15 @@ aside h3{
   display: flex;
   flex-flow: wrap;
   
+}
+.content-wrapper{
+  background: url('img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+
 }
 
 aside .form {  
