@@ -151,7 +151,7 @@ figure{
 }
 
 address {
-font-style:normal;
+font-style: normal;
 }
 
 .content-wrapper{
@@ -219,29 +219,46 @@ header nav ul li{
   font-size: 1.125em;
 }
 
+
+
 footer {
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-footer p {
-  margin: 0;
+.footer-content {
+  display: flex;
+  flex-flow: column;
 }
 
 footer .content-wrapper{
   width: 55%;
-  margin: 50px 0;
+  
+
 }
 
 
 footer .contact{
   margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  
 }
+
 
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  
+}
+
+
+footer .social{
+  padding: 0 0 0 600px; 
 }
 
 footer .social-icons p {
@@ -250,8 +267,17 @@ footer .social-icons p {
   align-items: center;
 }
 
+.social-icons i{
+  font-size: 2.75em;
+  padding: 0 20px 0 20px;
+  color: #527158;
+
+}
+
 footer .copyright {
-  margin: 20px 0;
+  display: flex;
+  align-items:center;
+  padding: 50px 500px 0 500px;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -322,10 +348,12 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+
 }
 .features i{
   font-size: 3.75em;
   margin-bottom: 40px;
+
 }
 
 .features h2 {
@@ -342,6 +370,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
 }
 
 .features p {
@@ -493,11 +522,11 @@ aside {
 }
 
 .faq .content-wrapper {
-  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
 }
 
 .faq h2 {
