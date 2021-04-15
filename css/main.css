@@ -642,7 +642,7 @@ aside {
 
   /* General Styles */
   .content-wrapper {
-    max-width: 640px;
+    max-width: 1200px;
     margin: 100px 0;
   }
 
@@ -710,7 +710,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 40%;
+  width: 35%;
   margin: 0;
 }
 
@@ -767,6 +767,11 @@ footer .footer-content {
 
 footer .contact {
   margin-bottom: 0;
+}
+
+footer h4{
+  font-size: 1.5em;
+  margin-bottom: 40px;
 }
 
 footer p{
@@ -839,13 +844,33 @@ footer .copywright {
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
-  .content-wrapper {
-    max-width: 1200px;
+
+  header{
+    padding: 15px 0;
   }
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  h2{
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4{
+    font-size: 1.875em;
+  }
+  p {
+    font-size: 1.125em;
+    line-height: 1.333;
+  }
+
 
   /* Hero */
   .hero-area h1 {
-    width: 60%;
+    font-size: 3.75em;
+    width: 80%;
   }
 
  /* Aside */
@@ -856,7 +881,11 @@ footer .copywright {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form{
-  width: 30%;
+  width: 40%;
+}
+
+.form-description p{
+  font-size: 1.125em;
 }
 
 /* Features */
@@ -869,17 +898,36 @@ aside .content-wrapper .form{
 }
 
 /* Reviews */
+
+.reviews h2 {
+  padding-bottom: 50px;
+}
+
 .reviews article div {
   width: 42%;
 }
+
+footer h4{
+  font-size: 1.875em;
+}
+
 /* ========================================================================
       About Page
    ========================================================================
 */
 
+.map figure {
+  padding-bottom: 37.5%;
+}
+
 .mission h2,
 .contact-section .content-wrapper h2{
   width: 95%;
+  font-size: 3em;
+}
+
+.contact-content h4 {
+  font-size: 1.875em;
 }
 
 /* =======================================================================
@@ -889,7 +937,13 @@ aside .content-wrapper .form{
  
  .faq h2 {
    width: 100%;
+   font-size: 3em;
  }
+
+ .faq h4,
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1;
 
 }
 
@@ -968,5 +1022,4 @@ aside .content-wrapper .form{
   h3 {
     page-break-after: avoid;
   }
-}
 
