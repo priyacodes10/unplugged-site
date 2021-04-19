@@ -262,11 +262,6 @@ footer .social-icons {
   
 }
 
-
-footer .social{
-  padding: 0 0 0 600px; 
-}
-
 footer .social-icons p {
   display: flex;
   justify-content: center;
@@ -405,17 +400,19 @@ input[type=button] {
 
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
-
+@media only screen and (min-width: 568px) {
+  /* Mobile styles here */
 /* Hero Area */
 
 .hero-area {
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  min-height: 500px;
 }
 
 header figure{
-  width: 768px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -443,7 +440,7 @@ aside {
 }
 
 .features article {
-  width: 63%;
+  width: 80%;
   margin: 30px 0;
 }
 
@@ -456,6 +453,7 @@ aside {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 /* Reviews */
